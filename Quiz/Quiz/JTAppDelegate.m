@@ -7,6 +7,7 @@
 //
 
 #import "JTAppDelegate.h"
+#import "JTQuizViewController.h"
 
 @implementation JTAppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+    JTQuizViewController *quizViewController = [[JTQuizViewController alloc] init];
+    self.window.rootViewController = quizViewController;
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
