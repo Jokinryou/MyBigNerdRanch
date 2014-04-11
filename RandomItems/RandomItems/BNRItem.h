@@ -20,13 +20,13 @@
 //    __weak BNRItem *_container;
 //}
 
-@property BNRItem *containedItem;
-@property BNRItem *container;
+@property (nonatomic, strong) BNRItem *containedItem;
+@property (nonatomic, weak) BNRItem *container;
 
-@property NSString *itemName;
-@property NSString *serialNumber;
-@property int valueInDollars;
-@property NSDate *dateCreated;
+@property (nonatomic, copy) NSString *itemName;
+@property (nonatomic, copy) NSString *serialNumber;
+@property (nonatomic) int valueInDollars;
+@property (nonatomic, readonly, strong) NSDate *dateCreated;
 
 + (instancetype)randomItem;
 

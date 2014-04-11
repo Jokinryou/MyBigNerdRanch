@@ -66,60 +66,61 @@
     return [self initWithItemName:name valueInDollars:0 serialNumber:@""];
 }
 
-- (void)setContainedItem:(BNRItem *)item {
+- (void)setContainedItem:(BNRItem *)containedItem {
 
-    _containedItem = item;
+    _containedItem = containedItem;
+    self.containedItem.container = self;
 }
+//
+//- (BNRItem *)containedItem {
+//
+//    return _containedItem;
+//}
+//
+//- (void)setContainer:(BNRItem *)item {
+//
+//    _container = item;
+//}
+//
+//- (BNRItem *)container {
+//
+//    return _container;
+//}
+//
+//- (void)setItemName:(NSString *)str {
+//
+//    _itemName = str;
+//}
+//
+//- (NSString *)itemName {
+//
+//    return _itemName;
+//}
+//
+//- (void)setSerialNumber:(NSString *)str {
+//
+//    _serialNumber = str;
+//}
+//
+//- (NSString *)serialNumber {
+//
+//    return _serialNumber;
+//}
+//
+//- (void)setValueInDollars:(int)v {
+//
+//    _valueInDollars = v;
+//}
+//
+//- (int)valueInDollars {
+//
+//    return _valueInDollars;
+//}
 
-- (BNRItem *)containedItem {
-
-    return _containedItem;
-}
-
-- (void)setContainer:(BNRItem *)item {
-
-    _container = item;
-}
-
-- (BNRItem *)container {
-
-    return _container;
-}
-
-- (void)setItemName:(NSString *)str {
-
-    _itemName = str;
-}
-
-- (NSString *)itemName {
-
-    return _itemName;
-}
-
-- (void)setSerialNumber:(NSString *)str {
-
-    _serialNumber = str;
-}
-
-- (NSString *)serialNumber {
-
-    return _serialNumber;
-}
-
-- (void)setValueInDollars:(int)v {
-
-    _valueInDollars = v;
-}
-
-- (int)valueInDollars {
-
-    return _valueInDollars;
-}
-
-- (NSDate *)dateCreated {
-
-    return _dateCreated;
-}
+//- (NSDate *)dateCreated {
+//
+//    return _dateCreated;
+//}
 
 - (NSString *)description {
     NSString *descriptionString = [[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, recorded on %@", self.itemName, self.serialNumber, self.valueInDollars, self.dateCreated];

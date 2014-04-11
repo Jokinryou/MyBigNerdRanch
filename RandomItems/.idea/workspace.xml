@@ -26,16 +26,7 @@
       <file leaf-file-name="BNRItem.h" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RandomItems/BNRItem.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.815621" vertical-offset="195" max-vertical-offset="976">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomItems-Prefix.pch" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RandomItems/RandomItems-Prefix.pch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="34" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.53775036" vertical-offset="195" max-vertical-offset="976">
               <folding />
             </state>
           </provider>
@@ -44,7 +35,7 @@
       <file leaf-file-name="BNRItem.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomItems/BNRItem.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2240">
+            <state line="60" column="56" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="2256">
               <folding />
             </state>
           </provider>
@@ -53,7 +44,7 @@
       <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomItems/main.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="39" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1232">
+            <state line="57" column="8" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="1232">
               <folding />
             </state>
           </provider>
@@ -86,10 +77,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
+    <option name="x" value="1365" />
     <option name="y" value="22" />
-    <option name="width" value="1600" />
-    <option name="height" value="878" />
+    <option name="width" value="1362" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -133,6 +124,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,7 +189,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,14 +267,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="22" width="1600" height="878" extended-state="0" />
+    <frame x="1365" y="22" width="1362" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.134375" sideWeight="0.6600742" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13436124" sideWeight="0.6600742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -293,6 +283,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -345,9 +336,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomItems/RandomItems-Prefix.pch">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomItems/BNRItem.h">
@@ -408,28 +397,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomItems/RandomItems-Prefix.pch">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="0.122919336" vertical-offset="0" max-vertical-offset="781" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomItems/BNRItem.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2240">
+        <state line="60" column="56" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="2256">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomItems/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="39" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1232">
+        <state line="57" column="8" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1216">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomItems/BNRItem.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.815621" vertical-offset="195" max-vertical-offset="976">
+        <state line="34" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.53775036" vertical-offset="195" max-vertical-offset="976">
           <folding />
         </state>
       </provider>

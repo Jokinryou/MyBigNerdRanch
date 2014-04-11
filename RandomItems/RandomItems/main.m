@@ -54,7 +54,6 @@ int main(int argc, const char * argv[])
         [items addObject:calculator];
 
         backpack.containedItem = calculator;
-        calculator.container = backpack;
 
         backpack = nil;
         calculator = nil;
