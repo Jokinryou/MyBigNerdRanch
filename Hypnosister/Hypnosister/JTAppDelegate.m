@@ -15,12 +15,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    CGRect firstFrame = CGRectMake(160, 240, 100, 150);
+//    CGRect firstFrame = CGRectMake(160, 240, 100, 150);
+    CGRect firstFrame = self.window.bounds;
 
     BNRHypnosisterView *firstView = [[BNRHypnosisterView alloc] initWithFrame:firstFrame];
-    firstView.backgroundColor = [UIColor redColor];
+//    firstView.backgroundColor = [UIColor redColor];
 
     [self.window addSubview:firstView];
+
+//    CGRect secondFrame = CGRectMake(20, 30, 50, 50);
+//
+//    BNRHypnosisterView *secondView = [[BNRHypnosisterView alloc] initWithFrame:secondFrame];
+//    secondView.backgroundColor = [UIColor blueColor];
+//
+////    [self.window addSubview:secondView];
+//    [firstView addSubview:secondView];
 
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
