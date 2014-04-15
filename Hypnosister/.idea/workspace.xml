@@ -23,30 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JTAppDelegate.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.h">
+      <file leaf-file-name="BNRHypnosisterView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hypnosister/BNRHypnosisterView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+            <state line="24" column="50" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1584">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JTAppDelegate.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JTAppDelegate.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1168">
-              <folding>
-                <element signature="e#148#173#0" expanded="true" />
-              </folding>
+            <state line="40" column="43" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.29166666" vertical-offset="400" max-vertical-offset="1552">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BNRHypnosisterView.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hypnosister/BNRHypnosisterView.m">
+      <file leaf-file-name="JTAppDelegate.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="4" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.61075544" vertical-offset="339" max-vertical-offset="1120">
+            <state line="6" column="1" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
               <folding />
             </state>
           </provider>
@@ -62,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Hypnosister/JTAppDelegate.m" />
         <option value="$PROJECT_DIR$/Hypnosister/BNRHypnosisterView.m" />
+        <option value="$PROJECT_DIR$/Hypnosister/JTAppDelegate.m" />
       </list>
     </option>
   </component>
@@ -188,11 +186,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16" sideWeight="0.671199" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.155" sideWeight="0.68355995" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31644005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -215,6 +213,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hypnosister/BNRHypnosisterView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="82" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1168">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="336">
@@ -225,9 +244,7 @@
     <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="25" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1024">
-          <folding>
-            <element signature="e#148#173#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -245,18 +262,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/Hypnosister/BNRHypnosisterView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1168">
-          <folding>
-            <element signature="e#148#173#0" expanded="true" />
-          </folding>
+        <state line="24" column="50" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1584">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hypnosister/BNRHypnosisterView.m">
+    <entry file="file://$PROJECT_DIR$/Hypnosister/JTAppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="4" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.61075544" vertical-offset="339" max-vertical-offset="1120">
+        <state line="40" column="43" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.29166666" vertical-offset="400" max-vertical-offset="1552">
           <folding />
         </state>
       </provider>
