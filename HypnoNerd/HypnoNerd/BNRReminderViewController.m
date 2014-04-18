@@ -16,6 +16,13 @@
 
 @implementation BNRReminderViewController
 
+- (void)viewDidLoad {
+
+    [super viewDidLoad];
+
+    NSLog(@"BNRReminderViewController loaded its view");
+}
+
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,11 +43,23 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+
+    [super viewWillAppear:animated];
+
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
 
 - (IBAction)addReminder:(id)sender {
 
     NSDate *date = self.datePicker.date;
     NSLog(@"Setting a reminder for %@", date);
+
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    notification.alertBody = @"Hypnotize me!";
+    notification.fireDate = date;
+
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
 
 @end

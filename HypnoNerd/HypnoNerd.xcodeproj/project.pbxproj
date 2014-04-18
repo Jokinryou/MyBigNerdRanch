@@ -23,6 +23,8 @@
 		745F3DC018FD0BB0004E1404 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F3DBF18FD0BB0004E1404 /* BNRHypnosisViewController.m */; };
 		748F438518FD10AA00940333 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F438418FD10AA00940333 /* BNRReminderViewController.m */; };
 		74F302F018FD12A400C9B735 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F302EF18FD12A400C9B735 /* BNRReminderViewController.xib */; };
+		BC15E0CCDDA80BFAE455A36A /* JTQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15EF583C2E4ED00E974BD4 /* JTQuizViewController.m */; };
+		BC15EB34DC94DF373C978498 /* JTQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC15EC69EC6072650613063C /* JTQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		748F438318FD10AA00940333 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
 		748F438418FD10AA00940333 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
 		74F302EF18FD12A400C9B735 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		BC15E220571224ADBFB277A6 /* JTQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTQuizViewController.h; sourceTree = "<group>"; };
+		BC15EC69EC6072650613063C /* JTQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JTQuizViewController.xib; sourceTree = "<group>"; };
+		BC15EF583C2E4ED00E974BD4 /* JTQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTQuizViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,9 @@
 				748F438318FD10AA00940333 /* BNRReminderViewController.h */,
 				748F438418FD10AA00940333 /* BNRReminderViewController.m */,
 				74F302EF18FD12A400C9B735 /* BNRReminderViewController.xib */,
+				BC15EC69EC6072650613063C /* JTQuizViewController.xib */,
+				BC15EF583C2E4ED00E974BD4 /* JTQuizViewController.m */,
+				BC15E220571224ADBFB277A6 /* JTQuizViewController.h */,
 			);
 			path = HypnoNerd;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 				74F302F018FD12A400C9B735 /* BNRReminderViewController.xib in Resources */,
 				745F3D9418FD0AAC004E1404 /* InfoPlist.strings in Resources */,
 				745F3D9C18FD0AAC004E1404 /* Images.xcassets in Resources */,
+				BC15EB34DC94DF373C978498 /* JTQuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 				745F3D9618FD0AAC004E1404 /* main.m in Sources */,
 				748F438518FD10AA00940333 /* BNRReminderViewController.m in Sources */,
 				745F3DC018FD0BB0004E1404 /* BNRHypnosisViewController.m in Sources */,
+				BC15E0CCDDA80BFAE455A36A /* JTQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

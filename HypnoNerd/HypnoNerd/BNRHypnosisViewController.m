@@ -11,6 +11,13 @@
 
 @implementation BNRHypnosisViewController
 
+- (void)viewDidLoad {
+
+    [super viewDidLoad];
+
+    NSLog(@"BNRHynosisViewController loaded its view");
+}
+
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

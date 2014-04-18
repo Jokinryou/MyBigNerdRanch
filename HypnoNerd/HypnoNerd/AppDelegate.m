@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "BNRHypnosisViewController.h"
 #import "BNRReminderViewController.h"
+#import "JTQuizViewController.h"
 
 @implementation AppDelegate
 
@@ -20,13 +21,16 @@
     BNRHypnosisViewController *hypnosisViewController = [[BNRHypnosisViewController alloc] init];
 
     // This will get a pointer to an object that represents the app bundle
-    NSBundle *appBundle = [NSBundle mainBundle];
+//    NSBundle *appBundle = [NSBundle mainBundle];
 
     // Look in the appBundle for the file BNRReminderViewController.xib
-    BNRReminderViewController *reminderViewController = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+//    BNRReminderViewController *reminderViewController = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    BNRReminderViewController *reminderViewController = [[BNRReminderViewController alloc] init];
+
+    JTQuizViewController *quizViewController = [[JTQuizViewController alloc] init];
 
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[hypnosisViewController, reminderViewController];
+    tabBarController.viewControllers = @[hypnosisViewController, reminderViewController, quizViewController];
 
     self.window.rootViewController = tabBarController;
 
