@@ -72,8 +72,6 @@
 // When a finger touches the screen
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 
-    NSLog(@"%@ was touched", self);
-
     // Get 3 random numbers between 0 and 1
     float red = (arc4random() % 100) / 100.0;
     float green = (arc4random() % 100) / 100.0;

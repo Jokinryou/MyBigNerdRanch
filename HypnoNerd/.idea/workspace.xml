@@ -23,28 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BNRHypnosisterView.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisterView.m">
+      <file leaf-file-name="BNRReminderViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRReminderViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.38121548" vertical-offset="423" max-vertical-offset="1584">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRHypnosisViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HypnoNerd/AppDelegate.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="106" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1152">
+            <state line="49" column="23" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1136">
               <folding />
             </state>
           </provider>
@@ -59,10 +41,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BNRReminderViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRReminderViewController.m">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HypnoNerd/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="14" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1136">
+            <state line="26" column="21" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1168">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BNRHypnosisViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="61" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.44394618" vertical-offset="1060" max-vertical-offset="2032">
+              <folding>
+                <element signature="e#158#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BNRHypnosisterView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisterView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1552">
               <folding />
             </state>
           </provider>
@@ -80,10 +82,11 @@
       <list>
         <option value="$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.h" />
         <option value="$PROJECT_DIR$/HypnoNerd/BNRReminderViewController.h" />
-        <option value="$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m" />
         <option value="$PROJECT_DIR$/HypnoNerd/BNRReminderViewController.m" />
-        <option value="$PROJECT_DIR$/HypnoNerd/AppDelegate.m" />
         <option value="$PROJECT_DIR$/HypnoNerd/JTQuizViewController.m" />
+        <option value="$PROJECT_DIR$/HypnoNerd/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/HypnoNerd/BNRHypnosisterView.m" />
+        <option value="$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m" />
       </list>
     </option>
   </component>
@@ -119,6 +122,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,9 +149,26 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HypnoNerd" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HypnoNerd" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +203,7 @@
     <frame x="1366" y="22" width="1280" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -213,6 +234,22 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1280">
+          <folding>
+            <element signature="e#158#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisterView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="55" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="304">
@@ -223,7 +260,9 @@
     <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="15" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="784">
-          <folding />
+          <folding>
+            <element signature="e#158#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -269,20 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HypnoNerd/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="106" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRReminderViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="14" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HypnoNerd/JTQuizViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="46" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="1344">
@@ -290,17 +315,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m">
+    <entry file="file://$PROJECT_DIR$/HypnoNerd/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+        <state line="26" column="21" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="1120">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisterView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.38121548" vertical-offset="423" max-vertical-offset="1584">
+        <state line="59" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1552">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRReminderViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="23" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HypnoNerd/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.15911601" vertical-offset="0" max-vertical-offset="905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HypnoNerd/BNRHypnosisViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="61" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.44394618" vertical-offset="1060" max-vertical-offset="2032">
+          <folding>
+            <element signature="e#158#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -27,10 +27,8 @@
 //    BNRReminderViewController *reminderViewController = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
     BNRReminderViewController *reminderViewController = [[BNRReminderViewController alloc] init];
 
-    JTQuizViewController *quizViewController = [[JTQuizViewController alloc] init];
-
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[hypnosisViewController, reminderViewController, quizViewController];
+    tabBarController.viewControllers = @[hypnosisViewController, reminderViewController];
 
     self.window.rootViewController = tabBarController;
 
