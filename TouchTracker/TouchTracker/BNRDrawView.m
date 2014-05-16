@@ -15,6 +15,8 @@
 @property (nonatomic, strong) NSMutableDictionary *linesInProgress;
 @property (nonatomic, strong)  NSMutableArray *finishedLines;
 
+@property (nonatomic, weak) BNRLine *selectedLine;
+
 @end
 
 @implementation BNRDrawView
@@ -30,9 +32,27 @@
         self.backgroundColor = [UIColor grayColor];
         self.multipleTouchEnabled = YES;
 
+        UITapGestureRecognizer *doubleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(doubleTap:)];
+        doubleTapRecognizer.numberOfTapsRequired = 2;
+        doubleTapRecognizer.delaysTouchesBegan = YES;
+
+        [self addGestureRecognizer:doubleTapRecognizer];
+
+        UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+        tapGestureRecognizer.delaysTouchesBegan = YES;
+        [tapGestureRecognizer requireGestureRecognizerToFail:doubleTapRecognizer];
+        [self addGestureRecognizer:tapGestureRecognizer];
+
+        UILongPressGestureRecognizer *longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
+        [self addGestureRecognizer:longPressGestureRecognizer];
+
     }
 
     return self;
+}
+
+- (BOOL)canBecomeFirstResponder {
+    return YES;
 }
 
 - (void)strokeLine:(BNRLine *)line {
@@ -58,6 +78,11 @@
     [[UIColor redColor] set];
     for (NSValue *key in self.linesInProgress) {
         [self strokeLine:self.linesInProgress[key]];
+    }
+
+    if (self.selectedLine) {
+        [[UIColor greenColor] set];
+        [self strokeLine:self.selectedLine];
     }
 
 //    if (self.currentLine) {
@@ -155,6 +180,110 @@
         NSValue *key = [NSValue valueWithNonretainedObject:touch];
         [self.linesInProgress removeObjectForKey:key];
 
+    }
+
+    [self setNeedsDisplay];
+
+}
+
+- (BNRLine *)lineAtPoint:(CGPoint)point {
+
+    // Find a line close to point
+    for (BNRLine *line in self.finishedLines) {
+
+        CGPoint start = line.begin;
+        CGPoint end = line.end;
+
+        // Check a few points on the line
+        for (float t = 0.0; t <= 1.0; t += 0.05) {
+
+            float x = start.x + t * (end.x - start.x);
+            float y = start.y + t * (end.y - start.y);
+
+            // If the tapped point is within 20 points, let's return this line
+            if (hypot(x - point.x, y - point.y) < 20.0) {
+                return line;
+            }
+
+        }
+
+    }
+
+    // If nothing is close enough to the tapped point, then we did not select a line
+    return nil;
+
+}
+
+#pragma mark - Actions
+
+- (void)doubleTap:(UIGestureRecognizer *)gestureRecognizer {
+
+    NSLog(@"Recognized Double Tap");
+
+    [self.linesInProgress removeAllObjects];
+    [self.finishedLines removeAllObjects];
+    [self setNeedsDisplay];
+
+}
+
+- (void)tap:(UIGestureRecognizer *)gestureRecognizer {
+
+    NSLog(@"Recognized tap");
+
+    CGPoint point = [gestureRecognizer locationInView:self];
+    self.selectedLine = [self lineAtPoint:point];
+
+    if (self.selectedLine) {
+
+        // Make ourselves the target of menu item action message
+        [self becomeFirstResponder];
+
+        // Grab the menu controller
+        UIMenuController *menuController = [UIMenuController sharedMenuController];
+
+        // Create a new "Delete" UIMenuItem
+        UIMenuItem *deleteItem = [[UIMenuItem alloc] initWithTitle:@"Delete" action:@selector(deleteLine:)];
+
+        menuController.menuItems = @[deleteItem];
+
+        // Tell the menu where it should come from and show it
+        [menuController setTargetRect:CGRectMake(point.x, point.y, 2, 2) inView:self];
+        [menuController setMenuVisible:YES animated:YES];
+
+    } else {
+
+        // Hide the menu if no line is selected
+        [[UIMenuController sharedMenuController] setMenuVisible:NO animated:YES];
+
+    }
+
+    [self setNeedsDisplay];
+
+}
+
+- (void)deleteLine:(id)sender {
+
+    // Remove the selected line from the list of _finishedLines
+    [self.finishedLines removeObject:self.selectedLine];
+
+    // Redraw everything
+    [self setNeedsDisplay];
+
+}
+
+- (void)longPress:(UIGestureRecognizer *)gestureRecognizer {
+
+    if (gestureRecognizer.state == UIGestureRecognizerStateBegan) {
+
+        CGPoint point = [gestureRecognizer locationInView:self];
+        self.selectedLine = [self lineAtPoint:point];
+
+        if (self.selectedLine) {
+            [self.linesInProgress removeAllObjects];
+        }
+
+    } else if(gestureRecognizer.state == UIGestureRecognizerStateEnded){
+        self.selectedLine = nil;
     }
 
     [self setNeedsDisplay];

@@ -17,16 +17,16 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__3_5_inch__7.0" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_2c2fc98f624b86405b1089962bf2f23f13cadac9" />
   <component name="FavoritesManager">
     <favorites_list name="Homepwner" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BNRItemsViewController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BNRItemsViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BNRItemsViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="3631" selection-end="3631" vertical-scroll-proportion="0.0" vertical-offset="1472" max-vertical-offset="2880">
+            <state line="30" column="36" selection-start="662" selection-end="662" vertical-scroll-proportion="0.05381166" vertical-offset="432" max-vertical-offset="2880">
               <folding />
             </state>
           </provider>
@@ -44,19 +44,17 @@
       <file leaf-file-name="BNRDetailViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+            <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="368">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.2121547" vertical-offset="176" max-vertical-offset="2208">
-              <folding>
-                <element signature="e#156#191#0" expanded="true" />
-              </folding>
+            <state line="23" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="2208">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +62,7 @@
       <file leaf-file-name="BNRImageStore.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
+            <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="400">
               <folding />
             </state>
           </provider>
@@ -73,7 +71,7 @@
       <file leaf-file-name="BNRItem.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="40" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="944">
+            <state line="26" column="40" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="944">
               <folding />
             </state>
           </provider>
@@ -92,9 +90,7 @@
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="70" column="33" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1600">
-              <folding>
-                <element signature="e#145#169#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +98,7 @@
       <file leaf-file-name="BNRItemStore.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
+            <state line="18" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="464">
               <folding />
             </state>
           </provider>
@@ -243,10 +239,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="22" width="1280" height="1002" extended-state="0" />
+    <frame x="1366" y="22" width="1280" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -260,6 +255,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -312,65 +308,12 @@
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="334" column="21" selection-start="19715" selection-end="19715" vertical-scroll-proportion="0.33295965" vertical-offset="4999" max-vertical-offset="7680">
-          <folding />
-        </state>
+        <state line="334" column="21" selection-start="19715" selection-end="19715" vertical-scroll-proportion="0.33295965" vertical-offset="4999" max-vertical-offset="7680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BNRItemsViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="56" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BNRItemsViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="3631" selection-end="3631" vertical-scroll-proportion="0.0" vertical-offset="1472" max-vertical-offset="2880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="23" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="33" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1600">
-          <folding>
-            <element signature="e#145#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="31" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="40" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="944">
           <folding />
         </state>
       </provider>
@@ -384,10 +327,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.2121547" vertical-offset="176" max-vertical-offset="2208">
-          <folding>
-            <element signature="e#156#191#0" expanded="true" />
-          </folding>
+        <state line="23" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="1303" max-vertical-offset="2208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="23" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="33" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="31" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BNRItemsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="36" selection-start="662" selection-end="662" vertical-scroll-proportion="0.05381166" vertical-offset="432" max-vertical-offset="2880">
+          <folding />
         </state>
       </provider>
     </entry>
