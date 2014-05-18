@@ -166,7 +166,7 @@
 
         [self.finishedLines addObject:line];
         [self.linesInProgress removeObjectForKey:key];
-
+        
     }
 
 //    [self.finishedLines addObject:self.currentLine];
@@ -228,7 +228,10 @@
     NSLog(@"Recognized Double Tap");
 
     [self.linesInProgress removeAllObjects];
-    [self.finishedLines removeAllObjects];
+//    [self.finishedLines removeAllObjects];
+    
+    self.finishedLines = [[NSMutableArray alloc] init];
+    
     [self setNeedsDisplay];
 
 }
@@ -336,6 +339,19 @@
     }
 
     return NO;
+}
+
+- (int)numberOfLines {
+    
+    int count;
+    
+    // Check that they are non-nil before we add their counts...
+    if (self.linesInProgress && self.finishedLines) {
+        count = [self.linesInProgress count] + [self.finishedLines count];
+    }
+    
+    return count;
+    
 }
 
 @end
