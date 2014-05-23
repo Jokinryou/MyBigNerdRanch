@@ -20,7 +20,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+//@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
 
@@ -74,13 +74,13 @@
     // Use filtered NSDate object to set dateLabel contents
     self.dateLabel.text = [dateFormatter stringFromDate:item.dateCreated];
 
-    NSString *imagekey = self.item.itemKey;
+//    NSString *imagekey = self.item.itemKey;
 
     // Get the image for its image key from the image store
-    UIImage *imageToDisplay = [[BNRImageStore sharedStore] imageForKey:imagekey];
+//    UIImage *imageToDisplay = [[BNRImageStore sharedStore] imageForKey:imagekey];
 
     // Use that image to put on the screen in the imageView
-    self.imageView.image = imageToDisplay;
+//    self.imageView.image = imageToDisplay;
 
 }
 
@@ -114,7 +114,7 @@
     [[BNRImageStore sharedStore] setImage:image forKey:self.item.itemKey];
 
     // Put that image onto the screen in our image view
-    self.imageView.image = image;
+//    self.imageView.image = image;
 
     // Take image picker off the screen -
     // you must call this dismiss method
