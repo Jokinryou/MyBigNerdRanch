@@ -17,97 +17,16 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_2c2fc98f624b86405b1089962bf2f23f13cadac9" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPad_Retina_7.1" />
   <component name="FavoritesManager">
     <favorites_list name="Homepwner" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BNRItemsViewController.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BNRItemsViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="36" selection-start="662" selection-end="662" vertical-scroll-proportion="0.05381166" vertical-offset="432" max-vertical-offset="2880">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRItemsViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BNRItemsViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="56" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="304">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRDetailViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="368">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="2208">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRImageStore.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="400">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRItem.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="40" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="944">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRItem.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="23" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRItemStore.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="33" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRItemStore.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRItemStore.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="464">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BNRImageStore.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="31" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1264">
+            <state line="34" column="0" selection-start="863" selection-end="863" vertical-scroll-proportion="0.6728972" vertical-offset="256" max-vertical-offset="2208">
               <folding />
             </state>
           </provider>
@@ -139,10 +58,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
+    <option name="x" value="2" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="1002" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -170,7 +89,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +117,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,23 +158,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="22" width="1280" height="1002" extended-state="6" />
-    <editor active="true" />
+    <frame x="2" y="22" width="1280" height="746" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16484375" sideWeight="0.67309755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16484375" sideWeight="0.67355984" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -301,9 +220,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRAppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="71" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1104">
-          <folding />
-        </state>
+        <state line="25" column="71" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1104" />
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
@@ -314,20 +231,6 @@
     <entry file="file://$PROJECT_DIR$/BNRItemsViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="56" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="1303" max-vertical-offset="2208">
           <folding />
         </state>
       </provider>
@@ -376,7 +279,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BNRItemsViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="36" selection-start="662" selection-end="662" vertical-scroll-proportion="0.05381166" vertical-offset="432" max-vertical-offset="2880">
+        <state line="42" column="15" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="863" selection-end="863" vertical-scroll-proportion="0.6728972" vertical-offset="256" max-vertical-offset="2208">
           <folding />
         </state>
       </provider>
