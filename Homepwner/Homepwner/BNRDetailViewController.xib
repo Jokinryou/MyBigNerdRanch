@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRDetailViewController">
             <connections>
                 <outlet property="dateLabel" destination="VYT-yn-lhb" id="Iut-2A-KLc"/>
+                <outlet property="imageView" destination="93T-YD-aig" id="hAV-qD-zLd"/>
                 <outlet property="nameField" destination="EXc-9n-6RH" id="y4m-jn-hba"/>
                 <outlet property="serialNumberField" destination="Elr-8z-4pQ" id="9J9-9x-imA"/>
                 <outlet property="toolbar" destination="LwN-gg-XAG" id="bVR-5s-euy"/>
@@ -94,6 +95,10 @@
                         </barButtonItem>
                     </items>
                 </toolbar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="93T-YD-aig">
+                    <rect key="frame" x="40" y="314" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>

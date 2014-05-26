@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="BNRDetailViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="368">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="863" selection-end="863" vertical-scroll-proportion="0.6728972" vertical-offset="256" max-vertical-offset="2208">
+            <state line="108" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.7807229" vertical-offset="1404" max-vertical-offset="2768">
               <folding />
             </state>
           </provider>
@@ -58,7 +67,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
+    <option name="x" value="4" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="746" />
@@ -89,6 +98,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -117,7 +127,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,8 +167,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1280" height="746" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="22" width="1280" height="746" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -169,7 +178,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -230,16 +239,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BNRItemsViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
+        <state line="10" column="56" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
+        <state line="16" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRItem.h">
@@ -272,9 +277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRImageStore.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="31" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1264">
-          <folding />
-        </state>
+        <state line="37" column="31" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1264" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BNRItemsViewController.m">
@@ -293,7 +296,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="863" selection-end="863" vertical-scroll-proportion="0.6728972" vertical-offset="256" max-vertical-offset="2208">
+        <state line="108" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.7807229" vertical-offset="1404" max-vertical-offset="2768">
           <folding />
         </state>
       </provider>
