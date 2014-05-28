@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BNRDetailViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
+      <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="368">
+            <state line="97" column="57" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.3566265" vertical-offset="1404" max-vertical-offset="2768">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BNRDetailViewController.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
+      <file leaf-file-name="BNRDetailViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.7807229" vertical-offset="1404" max-vertical-offset="2768">
+            <state line="14" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="368">
               <folding />
             </state>
           </provider>
@@ -130,9 +130,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Homepwner" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Homepwner">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Homepwner" TARGET_NAME="Homepwner" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Homepwner" RUN_TARGET_NAME="Homepwner" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -158,6 +162,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="20dd50d6-0c21-4ece-988d-af6111283fb6" name="Default" comment="" />
@@ -296,7 +317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/BNRDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.7807229" vertical-offset="1404" max-vertical-offset="2768">
+        <state line="97" column="57" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.3566265" vertical-offset="1404" max-vertical-offset="2768">
           <folding />
         </state>
       </provider>
