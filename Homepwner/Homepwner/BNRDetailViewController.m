@@ -9,8 +9,11 @@
 #import "BNRDetailViewController.h"
 #import "BNRItem.h"
 #import "BNRImageStore.h"
+#import "BNRItemStore.h"
 
-@interface BNRDetailViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate>
+@interface BNRDetailViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate, UIPopoverControllerDelegate>
+
+@property (strong, nonatomic) UIPopoverController *imagePickerPopover;
 
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 
@@ -24,9 +27,35 @@
 
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cameraButton;
+
 @end
 
 @implementation BNRDetailViewController
+
+- (instancetype)initForNewItem:(BOOL)isNew {
+
+    self = [super initWithNibName:nil bundle:nil];
+
+    if (self) {
+        if (isNew) {
+            UIBarButtonItem *doneItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonItemStyleDone target:self action:@selector(save:)];
+            self.navigationItem.rightBarButtonItem = doneItem;
+
+            UIBarButtonItem *cancelItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancel:)];
+            self.navigationItem.leftBarButtonItem = cancelItem;
+        }
+    }
+
+    return self;
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+
+    @throw [NSException exceptionWithName:@"Wrong initializer" reason:@"Use initForNewItem:" userInfo:nil];
+
+    return nil;
+}
 
 - (IBAction)backgroundTapped:(id)sender {
 
@@ -35,6 +64,13 @@
 }
 
 - (IBAction)takePicture:(id)sender {
+
+    if ([self.imagePickerPopover isPopoverVisible]) {
+        // If the popover is already up, get rid of it
+        [self.imagePickerPopover dismissPopoverAnimated:YES];
+        self.imagePickerPopover = nil;
+        return;
+    }
 
     UIImagePickerController *imagePickerController = [[UIImagePickerController alloc] init];
 
@@ -49,13 +85,31 @@
     imagePickerController.delegate = self;
 
     // Place image picker on the screen
-    [self presentViewController:imagePickerController animated:YES completion:nil];
+//    [self presentViewController:imagePickerController animated:YES completion:nil];
+
+    // Place image picker on the screen
+    // Check for iPad device before instantiating the popover controller
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        // Create a new popover controller that will display the imagePicker
+        self.imagePickerPopover = [[UIPopoverController alloc] initWithContentViewController:imagePickerController];
+
+        self.imagePickerPopover.delegate = self;
+
+        // Display the popover controller; sender
+        // is the camera bar button item
+        [self.imagePickerPopover presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+    } else {
+        [self presentViewController:imagePickerController animated:YES completion:nil];
+    }
 
 }
 
 - (void)viewWillAppear:(BOOL)animated {
 
     [super viewWillAppear:animated];
+
+    UIInterfaceOrientation io = [[UIApplication sharedApplication] statusBarOrientation];
+    [self prepareViewsForOrientation:io];
 
     BNRItem *item = self.item;
     self.nameField.text = item.itemName;
@@ -153,7 +207,20 @@
 
     // Take image picker off the screen -
     // you must call this dismiss method
-    [self dismissViewControllerAnimated:YES completion:nil];
+//    [self dismissViewControllerAnimated:YES completion:nil];
+
+    // Do I have a popover?
+    if (self.imagePickerPopover) {
+
+        // Dismiss it
+        [self.imagePickerPopover dismissPopoverAnimated:YES];
+        self.imagePickerPopover = nil;
+    } else {
+
+        // Dismiss the modal image picker
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+
 }
 
 #pragma mark - UITextFieldDelegate
@@ -161,6 +228,58 @@
 
     [textField resignFirstResponder];
     return YES;
+
+}
+
+#pragma mark -- Orientation
+
+- (void)prepareViewsForOrientation:(UIInterfaceOrientation)orientation {
+
+    // Is it a iPad? No preparation necessary
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        return;
+    }
+
+    // Is it landscape
+    if (UIInterfaceOrientationIsLandscape(orientation)) {
+        self.imageView.hidden = YES;
+        self.cameraButton.enabled = NO;
+    } else {
+        self.imageView.hidden = NO;
+        self.cameraButton.enabled = YES;
+    }
+
+}
+
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+
+    [self prepareViewsForOrientation:toInterfaceOrientation];
+
+}
+
+- (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController {
+
+    NSLog(@"User dismissed popover");
+    self.imagePickerPopover = nil;
+
+}
+
+#pragma mark -- selector
+
+- (void)save:(id)sender {
+
+//    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:self.dismissBlock];
+
+}
+
+- (void)cancel:(id)sender {
+
+    // If the user cancelled, then remove the BNRItem from the store
+    [[BNRItemStore sharedStore] removeItem:self.item];
+
+//    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:self.dismissBlock];
 
 }
 

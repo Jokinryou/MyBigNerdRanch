@@ -23,9 +23,14 @@
     static BNRItemStore *sharedStore = nil;
 
     // Do I need to create a sharedStore?
-    if (!sharedStore) {
+//    if (!sharedStore) {
+//        sharedStore = [[self alloc] initPrivate];
+//    }
+
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         sharedStore = [[self alloc] initPrivate];
-    }
+    });
 
     return sharedStore;
 }

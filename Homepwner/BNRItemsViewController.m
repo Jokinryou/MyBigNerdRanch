@@ -90,7 +90,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    BNRDetailViewController *detailViewController = [[BNRDetailViewController alloc] init];
+//    BNRDetailViewController *detailViewController = [[BNRDetailViewController alloc] init];
+    BNRDetailViewController *detailViewController = [[BNRDetailViewController alloc] initForNewItem:NO];
 
     NSArray *items = [[BNRItemStore sharedStore] allItems];
     BNRItem *selectedItem = items[indexPath.row];
@@ -143,12 +144,22 @@
     BNRItem *newItem = [[BNRItemStore sharedStore] createItem];
 
     // Figure out where that item is in the array
-    NSInteger lastRow = [[[BNRItemStore sharedStore] allItems] indexOfObject:newItem];
+//    NSInteger lastRow = [[[BNRItemStore sharedStore] allItems] indexOfObject:newItem];
 
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:lastRow inSection:0];
+//    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:lastRow inSection:0];
 
     // Insert this new row into the table
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationTop];
+//    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationTop];
+
+    BNRDetailViewController *detailViewController = [[BNRDetailViewController alloc] initForNewItem:YES];
+    detailViewController.item = newItem;
+    detailViewController.dismissBlock = ^{
+        [self.tableView reloadData];
+    };
+
+    UINavigationController *navigationController1 = [[UINavigationController alloc] initWithRootViewController:detailViewController];
+    navigationController1.modalPresentationStyle = UIModalPresentationFormSheet;
+    [self presentViewController:navigationController1 animated:YES completion:nil];
 }
 
 //- (IBAction)toggleEditingMode:(id)sender {
